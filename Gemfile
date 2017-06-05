@@ -9,11 +9,8 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.3'
 # Use sqlite3 as the database for Active Record
-<<<<<<< HEAD
 #gem 'sqlite3'
-=======
 # gem 'sqlite3'
->>>>>>> 3cbc78c08c909b06691a62efcb5af195178906a4
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -80,21 +77,11 @@ gem 'jquery-turbolinks'
 gem 'acts_as_votable', '~> 0.10.0'  
 #For Liking the Photo
 
-<<<<<<< HEAD
-
-group :development do
-  gem 'sqlite3'  
-=======
 group :development do
   gem 'sqlite3'
->>>>>>> 3cbc78c08c909b06691a62efcb5af195178906a4
 end
 
 group :production do
   gem 'pg'
-<<<<<<< HEAD
   gem 'rails_12factor' 
-=======
-  gem 'rails_12factor'
->>>>>>> 3cbc78c08c909b06691a62efcb5af195178906a4
 end
