@@ -59,9 +59,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+dependabot/bundler/paperclip-5.2.0
+    concurrent-ruby (1.1.5)
+
 dependabot/bundler/sprockets-3.7.2
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+ master
     devise (4.3.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -76,7 +80,8 @@ dependabot/bundler/sprockets-3.7.2
     glyphicons-rails (0.1.2)
       sass (~> 3.3)
       sass-rails
-    i18n (0.8.4)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (2.6.4)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2)
@@ -99,18 +104,18 @@ dependabot/bundler/sprockets-3.7.2
     mail (2.6.5)
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
-    mime-types (3.1)
+    mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
-    mimemagic (0.3.2)
+    mime-types-data (3.2019.0331)
+    mimemagic (0.3.3)
     mini_portile2 (2.4.0)
-    minitest (5.10.2)
+    minitest (5.11.3)
     multi_json (1.12.1)
     nio4r (2.1.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    paperclip (5.0.0)
+    paperclip (5.2.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
       cocaine (~> 0.5.5)
@@ -191,7 +196,7 @@ dependabot/bundler/sprockets-3.7.2
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
-    tzinfo (1.2.3)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
@@ -221,7 +226,7 @@ DEPENDENCIES
   jquery-turbolinks
   kaminari (~> 0.16.3)
   listen (~> 3.0.5)
-  paperclip (~> 5.0.0)
+  paperclip (~> 5.2.0)
   pg
   puma (~> 3.0)
   rails (~> 5.0.3)
