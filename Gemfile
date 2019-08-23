@@ -53,7 +53,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+dependabot/bundler/paperclip-tw-6.1.0
+gem "paperclip", "~> 6.1.0"
+
 gem "paperclip", "~> 5.2.0"
+master
 #Added Paperclip gem For image
 
 gem 'simple_form'
