@@ -74,7 +74,7 @@ dependabot/bundler/sprockets-3.7.2
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.9.18)
+    ffi (1.11.1)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     glyphicons-rails (0.1.2)
