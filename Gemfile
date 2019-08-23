@@ -59,7 +59,7 @@ gem "paperclip", "~> 5.0.0"
 gem 'simple_form'
 #For creating a new Post
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 #For Designing Purpose
 
 gem 'devise'
